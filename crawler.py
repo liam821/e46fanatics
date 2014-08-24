@@ -10,7 +10,7 @@ import urllib3
 '''
 e46 page crawler
 
-Please see http://forum.e46fanatics.com/showthread.php?p=16295676 for help
+Please see http://forum.e46fanatics.com/showthread.php?t=1049600 for help
 
 By Liam Slusser / lslusser at gmail.com / 8/22/2014
 '''
@@ -109,5 +109,5 @@ if __name__ == "__main__":
         doSearch(form)
     else:
         print "<h1>You need to give me a postid and username</h1>"
-        print """<br><br>See http://forum.e46fanatics.com/showthread.php?p=16295676 for help."""
+        print """<br><br>See http://forum.e46fanatics.com/showthread.php?t=1049600 for help."""
         raise Exception("You need to give me a postid and username!")
