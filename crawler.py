@@ -7,6 +7,14 @@ import string
 # https://pypi.python.org/pypi/urllib3
 import urllib3
 
+'''
+e46 page crawler
+
+Please see http://forum.e46fanatics.com/showthread.php?p=16295676 for help
+
+By Liam Slusser / lslusser at gmail.com / 8/22/2014
+'''
+
 cgitb.enable()
 
 class urlFetcher:
@@ -101,5 +109,5 @@ if __name__ == "__main__":
         doSearch(form)
     else:
         print "<h1>You need to give me a postid and username</h1>"
-        print """<br><br>example: <a href="http://liam821.com/e46fanatics/?postid=578901&username=JeppeJ">http://liam821.com/e46fanatics/?postid=578901&username=JeppeJ</a><br><br>"""
+        print """<br><br>See http://forum.e46fanatics.com/showthread.php?p=16295676 for help."""
         raise Exception("You need to give me a postid and username!")
